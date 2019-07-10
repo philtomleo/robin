@@ -1,7 +1,7 @@
 var res = {};
 
 res.BG_IMAGE = "images/BG-HD.png";
-res.FLOOR_IMAGE = "images/FLOOR-HD.png";
+res.FLOOR_IMAGE = "images/Floor-HD.png";
 res.ROBIN_IMAGE = "images/Robin-HD.png";
 res.Tree_IMAGE = "images/Tree-HD.png";
 res.CLOUD_IMAGE = "images/Cloud-HD.png";
