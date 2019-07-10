@@ -18,7 +18,7 @@ var GameLayer = cc.Layer.extend({
         this._floor = cc.Sprite.create(res.FLOOR_IMAGE);
         this._floor.setPosition(0,0);
         this._floor.setAnchorPoint(0,0);
-        this.addChild(this._floor, kZindexFloor);
+        this.addChild(this._floor, 40);
 
         this._robin = new RobinSprite(res.ROBIN_IMAGE);
         this._robin.x = kRobinStatex;
