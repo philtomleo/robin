@@ -15,7 +15,7 @@ var GameLayer = cc.Layer.extend({
         //bgsprite.setScale(0.8);
         this.addChild(bgsprite, kZindexBG);
 
-        this._floor = cc.Sprite.create(res.Floor_IMAGE);
+        this._floor = cc.Sprite.create(res.FLOOR_IMAGE);
         this._floor.setPosition(0,0);
         this._floor.setAnchorPoint(0,0);
         this.addChild(this._floor, kZindexFloor);
